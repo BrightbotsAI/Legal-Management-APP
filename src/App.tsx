@@ -1,23 +1,18 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
-import {LegalDocuments} from "./pages/LegalDocuments";
-import {Login} from "./pages/Login";
-
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Lawyers } from "./pages/lawyers";
+import { NoMatch } from "./pages/noMatch";
+import { Home } from "./pages/home";
 function LegalManagementApp() {
   return (
-    <Router>
-      <nav>
-        <Link to="/LegalDocuments">Legal Documents</Link>
-      </nav>
-      <nav>
-        <Link to="/">Login</Link>
-      </nav>
-       <Routes>
-         <Route path="/" element={<Login />} />
-         {/* <Route path="/about" element={<About />} /> */}
-         {/* <Route path="*" element={<NoMatch />} /> */}
-         <Route path="/LegalDocuments" element={<LegalDocuments />} />
-       </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          {<Route path="/" element={<Home />} />}
+          {<Route path="/lawyers" element={<Lawyers />} />}
+          {<Route path="*" element={<NoMatch />} />}
+        </Routes>
+      </Router>
+    </>
   );
 }
 
