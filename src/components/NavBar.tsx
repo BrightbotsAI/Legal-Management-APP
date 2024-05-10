@@ -37,12 +37,12 @@ export const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link " to="/legalCase">
-                LegalCase
+                Legal Cases
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link " to="/legalDocuments">
-                LegalDocuments
+                Legal Documents
               </NavLink>
             </li>
             <li className="nav-item">
