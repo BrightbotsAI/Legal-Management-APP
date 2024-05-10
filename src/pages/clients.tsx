@@ -1,7 +1,7 @@
 export function Clients() {
     return (
       <div>
-        <h2>Clients pages</h2>
+        <h1>Clients pages</h1>
       </div>
     );
   }
