@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const NavBar = () => {
   return (
@@ -19,12 +19,7 @@ export const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ">
-            <li className="nav-item me-2">
-              <NavLink className="nav-link" to="/">
-                Login
-              </NavLink>
-            </li>
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink className="nav-link " to="/clients">
                 Clients
@@ -51,6 +46,9 @@ export const NavBar = () => {
               </NavLink>
             </li>
           </ul>
+          <Link to="/" className="btn btn-outline-primary">
+            Login
+          </Link>
         </div>
       </div>
     </nav>
