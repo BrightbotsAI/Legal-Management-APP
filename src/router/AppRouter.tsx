@@ -3,7 +3,7 @@ import { Clients } from "../pages/Clients";
 import { Lawyers } from "../pages/Lawyers";
 import { LegalDocuments } from "../pages/LegalDocuments";
 import { Login } from "../pages/Login";
-import { NoMatch } from "../pages/NoMatch";
+import { NoMatch } from "../pages/noMatch";
 import { Precedents } from "../pages/Precedents";
 import { LegalCase } from "../pages/LegalCase";
 
