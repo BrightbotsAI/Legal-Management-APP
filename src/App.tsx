@@ -1,15 +1,13 @@
-// import { Router, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import { NavBar } from "./components";
+import { AppRouter } from "./router/AppRouter";
 
 function LegalManagementApp() {
   return (
-    <div>LegalManagementApp</div>
-    // <Router>
-    //   <Routes>
-    //     {/* <Route path="/" element={<Login />} /> */}
-    //     {/* <Route path="/about" element={<About />} /> */}
-    //     {/* <Route path="*" element={<NoMatch />} /> */}
-    //   </Routes>
-    // </Router>
+    <Router>
+      <NavBar />
+      <AppRouter />
+    </Router>
   );
 }
 
