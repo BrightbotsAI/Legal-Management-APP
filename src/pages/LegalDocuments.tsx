@@ -1,8 +1,15 @@
-export function LegalDocuments() {
+import { LegalDocumentsForm } from "../components/LegalDocuments/LegalDocumentsForm";
+import { LegalDocumentsView } from "../components/LegalDocuments/LegalDocumentsView";
+import "../styles/LegalStyles.css";
+
+export const LegalDocuments = () => {
   return (
-    <div className="p-3">
-      <h1>Legal Documents</h1>
-      <p>Here are some legal documents.</p>
-    </div>
+    <>
+      <h1 className="RegisterTitle">Register of legal documents</h1>
+      {/* <form className="form"> */}
+      <LegalDocumentsView />
+      <LegalDocumentsForm />
+      {/* </form> */}
+    </>
   );
-}
+};
