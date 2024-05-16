@@ -1,4 +1,4 @@
-import { FormField } from "../components";
+import { FormField } from "../components/common";
 
 export const Lawyers = () => {
   return (
