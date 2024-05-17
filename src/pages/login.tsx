@@ -1,4 +1,4 @@
-import { FormField } from "../components/common/FormField";
+import { FormField } from "../components/FormField";
 
 export const Login = () => {
   return (
