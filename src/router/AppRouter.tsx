@@ -6,9 +6,7 @@ import { LegalDocuments } from "../pages/LegalDocuments";
 import { NoMatch } from "../pages/noMatch";
 import { Precedents } from "../pages/Precedents";
 import { Login } from "../pages/Login";
-import { Lawyers } from "../pages/Lawyers";
-import { LegalCase } from "../pages/LegalCase";
-import { Clients } from "../pages/Clients";
+
 
 export const AppRouter = () => {
   return (
