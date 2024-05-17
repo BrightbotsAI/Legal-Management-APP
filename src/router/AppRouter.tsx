@@ -5,7 +5,7 @@ import { LegalDocuments } from "../pages/LegalDocuments";
 import { Login } from "../pages/login";
 import { NoMatch } from "../pages/noMatch";
 import { Precedents } from "../pages/Precedents";
-import { LegalCase } from "../pages/legalCase";
+import { LegalCase } from "../pages/legalCases";
 
 export const AppRouter = () => {
   return (
