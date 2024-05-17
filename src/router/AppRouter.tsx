@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Clients } from "../pages/Clients";
+import { Clients } from "../pages/clients";
 import { Lawyers } from "../pages/lawyers";
 import { LegalCase } from "../pages/legalCase";
 import { LegalDocuments } from "../pages/LegalDocuments";
