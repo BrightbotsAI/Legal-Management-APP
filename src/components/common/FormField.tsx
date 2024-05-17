@@ -4,6 +4,7 @@ interface FormFieldProps {
   id: string;
   ariaDescribedby?: string;
   helpText?: string;
+  placeholder?: string;
 }
 
 export const FormField = ({
@@ -12,6 +13,7 @@ export const FormField = ({
   id,
   ariaDescribedby,
   helpText,
+  placeholder,
 }: FormFieldProps) => {
   return (
     <div className="mb-3">
@@ -23,6 +25,7 @@ export const FormField = ({
         className="form-control"
         id={id}
         aria-describedby={ariaDescribedby}
+        placeholder={placeholder}
       />
       {helpText && (
         <div id={ariaDescribedby} className="form-text">
