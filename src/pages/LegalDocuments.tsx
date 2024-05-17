@@ -1,9 +1,19 @@
-export function LegalDocuments() {
+import { LegalDocumentsForm } from "../components/LegalDocuments/LegalDocumentsForm";
+import { LegalDocumentsView } from "../components/LegalDocuments/LegalDocumentsView";
+
+export const LegalDocuments = () => {
   return (
-    <div className="p-3">
-      <h1>Legal Documents</h1>
-      <p>Here are some legal documents.</p>
+    <div className="container">
+      <h1 className="mt-3">Register of legal documents</h1>
+      <div className="row">
+        <LegalDocumentsView />
+        <LegalDocumentsForm />
+      </div>
     </div>
   );
+<<<<<<< HEAD
 }
 
+=======
+};
+>>>>>>> dev

@@ -1,40 +1,47 @@
 import { FormField } from "../components/common/FormField";
 
-export const Login = () => {
+export function Clients() {
   return (
     <form className="mt-5">
       <div className="row justify-content-center">
         <div className="col-8">
           <FormField
-            label="Email address"
-            type="email"
-            id="exampleInputEmail1"
-            ariaDescribedby="emailHelp"
-            helpText="We'll never share your email with anyone else."
+            label="Name"
+            type="text"
+            id="nameClient"
+            ariaDescribedby="nameHelp"
+            helpText="Insert your name"
           />
         </div>
       </div>
       <div className="row justify-content-center">
         <div className="col-8">
           <FormField
-            label="Password"
-            type="password"
-            id="exampleInputPassword1"
+            label="Email"
+            type="email"
+            id="emailClient"
+            helpText="Insert your email"
           />
         </div>
       </div>
       <div className="row justify-content-center">
         <div className="col-8">
-          <div className="mb-3 form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-            />
-            <label className="form-check-label" htmlFor="exampleCheck1">
-              Check me out
-            </label>
-          </div>
+          <FormField
+            label="Phone Number"
+            type="number"
+            id="numberClient"
+            helpText="Insert your phone number"
+          />
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        <div className="col-8">
+          <FormField
+            label="Address"
+            type="text"
+            id="addressClient"
+            helpText="Insert your address"
+          />
         </div>
       </div>
       <div className="row justify-content-center">
@@ -48,5 +55,4 @@ export const Login = () => {
       </div>
     </form>
   );
-};
-
+}

@@ -1,4 +1,4 @@
-import { FormField } from "../components/FormField";
+import { FormField } from "../components/common/FormField";
 
 export function Clients() {
   return (
@@ -56,4 +56,3 @@ export function Clients() {
     </form>
   );
 }
-

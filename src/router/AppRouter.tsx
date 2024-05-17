@@ -1,4 +1,7 @@
 import { Route, Routes } from "react-router-dom";
+import { Clients } from "../pages/Clients";
+import { Lawyers } from "../pages/Lawyers";
+import { LegalCase } from "../pages/LegalCase";
 import { LegalDocuments } from "../pages/LegalDocuments";
 import { NoMatch } from "../pages/noMatch";
 import { Precedents } from "../pages/Precedents";
