@@ -1,84 +1,84 @@
 .RegisterTitle {
-  margin-top: 1.5rem;
-  margin-left: 2rem;
-}
-.form {
-  margin-top: 1.5rem;
-  margin-left: 5rem;
-  margin-right: 0;
-  padding: 0;
-}
-.primaryDiv {
-  justify-content: left;
-  text-align: left;
-}
-
-.tags {
-  columns: 8%;
-}
-#divCase {
-  margin-right: 50px;
-}
-#divTitle {
-  margin-left: 50px;
-}
-#divCase,
-#divTitle {
-  display: inline-block;
-}
-#divTitleC,
-#divDate {
-  display: inline-block;
-}
-#divTitleC {
-  margin-right: 50px;
-}
-#divDate {
-  margin-left: 50px;
-}
-#divAuthor,
-#divContent {
-  width: 47.8%;
-}
-#divTitleC,
-#divCase,
-#divTitle,
-#divDate {
-  width: 20%;
-}
-.tagsOption {
-  display: inline-block;
-  padding-left: 10px;
-}
-.tagLabel {
-  padding-left: 5px;
-}
-.submitButton {
-  padding-top: 30px;
-  width: 40%;
-  display: grid;
-  padding-left: 200px;
-}
-.tableCase {
-  float: right;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
-  margin-right: 12rem;
-  border-radius: 20px;
-}
-.divTable {
-  padding: 2px;
-  border: 2px;
-  border-style: groove;
-}
-.titleTable,
-.subtitleTable {
-  display: inline-block;
-}
-.subtitleTable {
-  margin-left: 10px;
-}
-.pTable {
-  font-size: 12px;
-}
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .form {
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 0;
+    padding: 0;
+  }
+  .primaryDiv {
+    justify-content: left;
+    text-align: left;
+  }
+  
+  .tags {
+    columns: 8%;
+  }
+  #divCase {
+    margin-right: 50px;
+  }
+  #divTitle {
+    margin-left: 50px;
+  }
+  #divCase,
+  #divTitle {
+    display: inline-block;
+  }
+  #divTitleC,
+  #divDate {
+    display: inline-block;
+  }
+  #divTitleC {
+    margin-right: 50px;
+  }
+  #divDate {
+    margin-left: 50px;
+  }
+  #divAuthor,
+  #divContent {
+    width: 47.8%;
+  }
+  #divTitleC,
+  #divCase,
+  #divTitle,
+  #divDate {
+    width: 20%;
+  }
+  .tagsOption {
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .tagLabel {
+    padding-left: 5px;
+  }
+  .submitButton {
+    padding-top: 30px;
+    width: 40%;
+    display: grid;
+    padding-left: 200px;
+  }
+  .tableCase {
+    float: right;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 12rem;
+    border-radius: 20px;
+  }
+  .divTable {
+    padding: 2px;
+    border: 2px;
+    border-style: groove;
+  }
+  .titleTable,
+  .subtitleTable {
+    display: inline-block;
+  }
+  .subtitleTable {
+    margin-left: 10px;
+  }
+  .pTable {
+    font-size: 12px;
+  }
