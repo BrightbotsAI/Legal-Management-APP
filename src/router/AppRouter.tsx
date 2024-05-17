@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import { Clients } from "../pages/Clients";
-import { Lawyers } from "../pages/Lawyers";
-import { LegalCase } from "../pages/LegalCase";
+import { Lawyers } from "../pages/lawyers";
+import { LegalCase } from "../pages/legalCase";
 import { LegalDocuments } from "../pages/LegalDocuments";
-import { NoMatch } from "../pages/noMatch";
+import { NoMatch } from "../pages/NoMatch";
 import { Precedents } from "../pages/Precedents";
-import { Login } from "../pages/Login";
+import { Login } from "../pages/login";
 
 
 export const AppRouter = () => {
